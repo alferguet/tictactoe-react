@@ -1,3 +1,5 @@
 export interface SquareProps {
-    value: number
+  onClick: Function;
+  value: string | null;
 }
+
